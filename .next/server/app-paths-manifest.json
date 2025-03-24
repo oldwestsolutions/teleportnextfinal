@@ -2,6 +2,6 @@
   "/page": "app/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/start/page": "app/start/page.js",
-  "/login/page": "app/login/page.js",
-  "/how-it-works/page": "app/how-it-works/page.js"
+  "/how-it-works/page": "app/how-it-works/page.js",
+  "/login/page": "app/login/page.js"
 }
