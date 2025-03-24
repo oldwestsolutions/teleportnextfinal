@@ -13,7 +13,7 @@ export default function Home() {
               {/* Left column - can be used for an image or additional content */}
             </div>
             <div className="col-md-6">
-              <div className="mt-5 pt-5" style={{ marginTop: '16rem !important' }}>
+              <div className="mt-5 pt-5 hero-content-box" style={{ marginTop: '16rem !important' }}>
                 <h1 className="hero-title mb-4">
                   Mobile Connectivity
                   <br />

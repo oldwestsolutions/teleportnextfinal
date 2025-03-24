@@ -9,7 +9,7 @@ export default function Navigation() {
             <div className="col-md-6 d-flex align-items-center">
               <div className="logo-placeholder me-3">
                 <img 
-                  src="/placeholder-logo.png" 
+                  src="/images/smallbolt.png" 
                   alt="Teleport Logo" 
                   className="header-logo"
                 />
