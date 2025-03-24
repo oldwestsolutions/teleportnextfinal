@@ -17,7 +17,7 @@ export default function HowItWorks() {
             </div>
           </Link>
           <h1 className="game-title mb-4">How Teleport Works</h1>
-          <p className="game-subtitle">Revolutionary Phone Bill Staking Platform on Compound Finance</p>
+          <p className="game-subtitle">Revolutionary Phone Service Staking Platform on Compound Finance</p>
         </div>
 
         <div className="row g-4">
@@ -25,10 +25,10 @@ export default function HowItWorks() {
           <div className="col-md-4">
             <div className="game-card">
               <div className="step-number">01</div>
-              <h2 className="step-title">Stake Your Phone Bill</h2>
+              <h2 className="step-title">Stake Your Phone Service</h2>
               <p className="step-description">
-                Download our secure mobile app and stake your monthly phone bill in the Compound Finance blockchain network. 
-                Our smart contract system ensures your staking is secure and automatically managed for optimal returns.
+                Download our secure mobile app and stake your monthly phone service in the Compound Finance blockchain network. 
+                Our dedicated network ensures your staking is secure and automatically managed for optimal returns.
               </p>
               <div className="game-card-footer">
                 <span className="power-up">Smart Staking</span>
@@ -43,7 +43,7 @@ export default function HowItWorks() {
               <div className="step-number">02</div>
               <h2 className="step-title">Earn Rewards</h2>
               <p className="step-description">
-                Earn Teleport tokens (TPT) based on your staked phone bill amount. Our dynamic reward system adjusts based on:
+                Earn Teleport tokens (TPT) based on your staked phone service amount. Our dynamic reward system adjusts based on:
                 • Staking amount
                 • Staking duration
                 • Market performance
@@ -63,7 +63,7 @@ export default function HowItWorks() {
               <h2 className="step-title">Compound Your Earnings</h2>
               <p className="step-description">
                 Maximize your returns through Compound Finance's advanced DeFi protocols. 
-                Your staked phone bill and earned tokens automatically generate additional yield in the lending pools.
+                Your staked phone service and earned tokens automatically generate additional yield in the lending pools.
               </p>
               <div className="game-card-footer">
                 <span className="power-up">Compound Interest</span>
@@ -82,8 +82,8 @@ export default function HowItWorks() {
                 <div className="security-feature">
                   <i className="fas fa-shield-alt"></i>
                   <div>
-                    <h3>Smart Contract Security</h3>
-                    <p>Your staked phone bill is protected by audited smart contracts on the Compound Finance network.</p>
+                    <h3>Dedicated Secure Network</h3>
+                    <p>Your staked phone service is protected by our dedicated secure network with enterprise-grade encryption.</p>
                   </div>
                 </div>
                 <div className="security-feature">
