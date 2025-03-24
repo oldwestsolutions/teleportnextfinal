@@ -8,30 +8,27 @@ export default function Home() {
         <div className="lightning"></div>
         <div className="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-20"></div>
         <div className="container position-relative z-1">
-          <div className="row align-items-center">
-            <div className="col-md-6">
-              {/* Left column - can be used for an image or additional content */}
-            </div>
-            <div className="col-md-6">
+          <div className="row justify-content-center">
+            <div className="col-md-8 text-center">
               <div className="mt-4 mt-md-5 pt-md-5 hero-content-box" style={{ marginTop: '8rem !important' }}>
-                <h1 className="hero-title mb-4 text-center text-md-start">
+                <h1 className="hero-title mb-4">
                   Mobile Connectivity
                   <br />
                   <span className="text-warning">Rewards</span>
                 </h1>
-                <p className="lead text-warning mb-5 fw-bold text-center text-md-start">
+                <p className="lead text-warning mb-5 fw-bold">
                   Join the future of P2P mobile connectivity sharing powered by Compound Finance
                 </p>
-                <div className="d-flex flex-column flex-md-row gap-4 align-items-stretch align-items-md-start justify-content-center justify-content-md-start">
+                <div className="d-flex flex-column gap-4 align-items-center justify-content-center">
                   <Link 
                     href="/start" 
-                    className="btn btn-primary btn-lg px-5 py-3 rounded-pill w-100 w-md-auto"
+                    className="btn btn-primary btn-lg px-5 py-3 rounded-pill w-75"
                   >
                     Start
                   </Link>
                   <Link 
                     href="/how-it-works" 
-                    className="btn btn-outline-primary btn-lg px-5 py-3 rounded-pill w-100 w-md-auto"
+                    className="btn btn-outline-primary btn-lg px-5 py-3 rounded-pill w-75"
                   >
                     Demo
                   </Link>
