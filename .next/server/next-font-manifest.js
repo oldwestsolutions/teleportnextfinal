@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/imacuser/Desktop/untitled folder 16/teleportnextfinal/src/app/layout\":[\"static/media/a34f9d1faa5f3315-s.p.woff2\",\"static/media/d8587557c8677295-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
