@@ -36,7 +36,7 @@ export default function Login() {
               />
             </div>
           </a>
-          <h1 className="game-title mb-4">Login to Teleport</h1>
+          <h1 className="game-title mb-4">Login</h1>
           <p className="game-subtitle">Enter your credentials to continue</p>
         </div>
 
@@ -70,7 +70,7 @@ export default function Login() {
                     placeholder="Enter your password"
                   />
                 </div>
-                <div className="d-grid gap-3">
+                <div className="d-grid gap-3 mt-4">
                   <button type="submit" className="btn btn-primary btn-lg game-button">
                     Connect Wallet
                   </button>

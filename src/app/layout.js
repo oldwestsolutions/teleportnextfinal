@@ -12,11 +12,19 @@ const rockSalt = Rock_Salt({
 export const metadata = {
   title: 'Teleport - P2P Mobile Connectivity Rewards',
   description: 'Earn rewards by sharing your mobile connectivity through Compound Finance',
+  icons: {
+    icon: '/images/smallbolt.png',
+    shortcut: '/images/smallbolt.png',
+    apple: '/images/smallbolt.png',
+  },
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/smallbolt.png" />
+      </head>
       <body className={`${inter.className} ${rockSalt.variable}`}>
         <ClientLayout>
           {children}

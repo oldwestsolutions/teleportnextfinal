@@ -2,15 +2,15 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="vh-100 overflow-hidden">
+    <div className="min-vh-100 d-flex flex-column">
       {/* Hero Section */}
-      <section className="flex-grow-1 d-flex align-items-center px-3 px-md-4">
+      <section className="flex-grow-1 d-flex align-items-start align-items-md-center px-3 px-md-4">
         <div className="lightning"></div>
         <div className="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-20"></div>
         <div className="container position-relative z-1">
           <div className="row justify-content-center">
             <div className="col-md-8 text-center">
-              <div className="mt-4 mt-md-5 pt-md-5 hero-content-box" style={{ marginTop: '8rem !important' }}>
+              <div className="hero-content-box">
                 <h1 className="hero-title mb-4">
                   Mobile Connectivity
                   <br />
