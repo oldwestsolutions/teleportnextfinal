@@ -1,6 +1,16 @@
 'use client'
 
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+
 export default function Navigation() {
+  const pathname = usePathname()
+  
+  // Hide navigation on these pages
+  if (pathname === '/how-it-works' || pathname === '/login') {
+    return null
+  }
+
   return (
     <header className="bubble-header">
       <div className="bubble-content">
@@ -20,10 +30,10 @@ export default function Navigation() {
               </div>
             </div>
             <div className="col-4 col-md-6 text-end">
-              <button className="btn btn-warning connect-wallet-btn">
+              <Link href="/login" className="btn btn-warning connect-wallet-btn text-decoration-none">
                 <span className="d-block">Connect</span>
                 <span className="d-block">Wallet</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

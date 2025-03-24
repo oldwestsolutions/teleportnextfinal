@@ -22,7 +22,7 @@ export default function Home() {
                 <p className="lead text-warning mb-5 fw-bold text-center text-md-start">
                   Join the future of P2P mobile connectivity sharing powered by Compound Finance
                 </p>
-                <div className="d-flex flex-column flex-md-row gap-3 gap-md-4 align-items-stretch align-items-md-start">
+                <div className="d-flex flex-column flex-md-row gap-4 align-items-stretch align-items-md-start justify-content-center justify-content-md-start">
                   <Link 
                     href="/start" 
                     className="btn btn-primary btn-lg px-5 py-3 rounded-pill w-100 w-md-auto"
@@ -33,7 +33,7 @@ export default function Home() {
                     href="/how-it-works" 
                     className="btn btn-outline-primary btn-lg px-5 py-3 rounded-pill w-100 w-md-auto"
                   >
-                    Learn More
+                    Demo
                   </Link>
                 </div>
               </div>
@@ -47,8 +47,8 @@ export default function Home() {
         <div className="container">
           <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
             <div className="d-flex flex-column align-items-center align-items-md-start">
-              <span className="text-warning small mb-1">Teleport Inc.</span>
-              <a href="mailto:contact@teleport.com" className="text-warning small text-decoration-none">contact@teleport.com</a>
+              <span className="text-warning small mb-1">Teleport Communications LLC</span>
+              <a href="mailto:support@teleportcommunications.com" className="text-warning small text-decoration-none">support@teleportcommunications.com</a>
             </div>
             <div>
               <span className="text-warning small">Rewards Powered by Compound</span>

@@ -1,65 +1,140 @@
+'use client'
+import Link from 'next/link'
+
 export default function HowItWorks() {
   return (
-    <div className="min-h-screen p-8">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-12 text-center">How Teleport Works</h1>
-
-        <div className="space-y-12">
-          {/* Step 1 */}
-          <div className="bg-gray-800/50 p-8 rounded-xl">
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center font-bold">1</div>
-              <h2 className="text-2xl font-semibold">Share Your Connection</h2>
+    <div className="how-it-works-container">
+      <div className="container">
+        <div className="text-center mb-5">
+          <Link href="/" className="d-inline-block logo-link">
+            <div className="logo-placeholder">
+              <img 
+                src="/images/smallbolt.png" 
+                alt="Teleport Logo" 
+                className="header-logo"
+                style={{ width: '52px', height: '52px' }}
+              />
             </div>
-            <p className="text-gray-300">
-              Download our mobile app and allow Teleport to share your mobile data connection with others in your area. 
-              You maintain full control over your data usage and can stop sharing at any time.
-            </p>
+          </Link>
+          <h1 className="game-title mb-4">How Teleport Works</h1>
+          <p className="game-subtitle">Revolutionary P2P Mobile Connectivity Sharing Platform</p>
+        </div>
+
+        <div className="row g-4">
+          {/* Step 1 */}
+          <div className="col-md-4">
+            <div className="game-card">
+              <div className="step-number">01</div>
+              <h2 className="step-title">Share Your Connection</h2>
+              <p className="step-description">
+                Download our secure mobile app and enable Teleport to share your mobile data connection with nearby users. 
+                Our intelligent bandwidth management system ensures you maintain full control over your data usage and network performance.
+              </p>
+              <div className="game-card-footer">
+                <span className="power-up">Earn Rewards</span>
+                <span className="difficulty">Easy Setup</span>
+              </div>
+            </div>
           </div>
 
           {/* Step 2 */}
-          <div className="bg-gray-800/50 p-8 rounded-xl">
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center font-bold">2</div>
-              <h2 className="text-2xl font-semibold">Earn Rewards</h2>
+          <div className="col-md-4">
+            <div className="game-card">
+              <div className="step-number">02</div>
+              <h2 className="step-title">Earn Rewards</h2>
+              <p className="step-description">
+                Earn Teleport tokens (TPT) for every gigabyte of data shared. Our dynamic reward system adjusts based on:
+                • Network demand in your area
+                • Data transfer quality
+                • Contribution duration
+                • Market rates
+              </p>
+              <div className="game-card-footer">
+                <span className="power-up">Flexible Earnings</span>
+                <span className="difficulty">Market-Based</span>
+              </div>
             </div>
-            <p className="text-gray-300">
-              For every gigabyte of data shared, you earn Teleport tokens (TPT). The more you share, the more you earn. 
-              Rewards are calculated based on your data usage and the current market rates.
-            </p>
           </div>
 
           {/* Step 3 */}
-          <div className="bg-gray-800/50 p-8 rounded-xl">
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center font-bold">3</div>
-              <h2 className="text-2xl font-semibold">Compound Your Earnings</h2>
+          <div className="col-md-4">
+            <div className="game-card">
+              <div className="step-number">03</div>
+              <h2 className="step-title">Compound Your Earnings</h2>
+              <p className="step-description">
+                Maximize your returns by depositing Teleport tokens into Compound Finance's lending pools. 
+                Earn additional interest while contributing to the growth of decentralized mobile connectivity.
+              </p>
+              <div className="game-card-footer">
+                <span className="power-up">Compound Interest</span>
+                <span className="difficulty">Smart Investment</span>
+              </div>
             </div>
-            <p className="text-gray-300">
-              Use Compound Finance to earn additional interest on your Teleport tokens. Deposit your rewards into Compound's 
-              lending pools to earn passive income while helping others access mobile connectivity.
-            </p>
           </div>
+        </div>
 
-          {/* Security Section */}
-          <div className="bg-gray-800/50 p-8 rounded-xl">
-            <h2 className="text-2xl font-semibold mb-4">Security & Privacy</h2>
-            <p className="text-gray-300">
-              Your privacy and security are our top priorities. We use end-to-end encryption for all data transfers, 
-              and your personal information is never shared with third parties. The platform is built on Ethereum's 
-              blockchain, ensuring transparency and security for all transactions.
-            </p>
+        {/* Security Section */}
+        <div className="security-section">
+          <h2 className="security-title">Enterprise-Grade Security</h2>
+          <div className="row g-4">
+            <div className="col-md-6">
+              <div className="security-card">
+                <div className="security-feature">
+                  <i className="fas fa-shield-alt"></i>
+                  <div>
+                    <h3>End-to-End Encryption</h3>
+                    <p>All data transfers are protected with military-grade encryption, ensuring your connection remains private and secure.</p>
+                  </div>
+                </div>
+                <div className="security-feature">
+                  <i className="fas fa-network-wired"></i>
+                  <div>
+                    <h3>Smart Bandwidth Management</h3>
+                    <p>Our AI-powered system automatically optimizes bandwidth allocation to maintain your primary connection quality.</p>
+                  </div>
+                </div>
+                <div className="security-feature">
+                  <i className="fas fa-user-shield"></i>
+                  <div>
+                    <h3>Privacy Controls</h3>
+                    <p>Granular privacy settings allow you to control exactly how and when your connection is shared.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="security-card">
+                <div className="security-feature">
+                  <i className="fas fa-link"></i>
+                  <div>
+                    <h3>Blockchain Technology</h3>
+                    <p>All transactions and rewards are recorded on the blockchain, ensuring transparency and immutability.</p>
+                  </div>
+                </div>
+                <div className="security-feature">
+                  <i className="fas fa-chart-line"></i>
+                  <div>
+                    <h3>Real-Time Analytics</h3>
+                    <p>Monitor your earnings, data usage, and network performance through our intuitive dashboard.</p>
+                  </div>
+                </div>
+                <div className="security-feature">
+                  <i className="fas fa-handshake"></i>
+                  <div>
+                    <h3>Dedicated Network</h3>
+                    <p>Automated rewards distribution and compound interest calculations through a secure dedicated network.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
 
-          {/* Get Started Section */}
-          <div className="text-center">
-            <a 
-              href="/dashboard" 
-              className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-full font-semibold transition-colors"
-            >
-              Start Earning Today
-            </a>
-          </div>
+        {/* Call to Action */}
+        <div className="text-center mt-5">
+          <a href="/start" className="btn btn-primary btn-lg px-5 py-3 rounded-pill">
+            Start Earning Today
+          </a>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import { Inter, Rock_Salt } from 'next/font/google'
 import './globals.css'
-import Navigation from '../components/Navigation'
+import ClientLayout from '../components/ClientLayout'
 
 const inter = Inter({ subsets: ['latin'] })
 const rockSalt = Rock_Salt({ 
@@ -18,10 +18,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} ${rockSalt.variable}`}>
-        <Navigation />
-        <main className="min-vh-100">
+        <ClientLayout>
           {children}
-        </main>
+        </ClientLayout>
       </body>
     </html>
   )

@@ -7,7 +7,8 @@ export default function Start() {
   const [formData, setFormData] = useState({
     email: '',
     password: '',
-    confirmPassword: ''
+    confirmPassword: '',
+    phoneNumber: ''
   })
 
   const handleSubmit = (e) => {
@@ -23,10 +24,21 @@ export default function Start() {
   }
 
   return (
-    <div className="min-vh-100 d-flex flex-column">
+    <div className="min-vh-100 d-flex flex-column start-container">
       <div className="container my-5">
         <div className="row justify-content-center">
           <div className="col-md-6">
+            <div className="text-center mb-4">
+              <Link href="/" className="d-inline-block logo-link">
+                <div className="logo-placeholder">
+                  <img 
+                    src="/images/smallbolt.png" 
+                    alt="Teleport Logo" 
+                    className="header-logo"
+                  />
+                </div>
+              </Link>
+            </div>
             <div className="card pixel-card">
               <div className="card-body p-4">
                 <h1 className="text-center text-warning mb-4">Get Started</h1>
@@ -40,6 +52,19 @@ export default function Start() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
+                      required
+                    />
+                  </div>
+                  <div className="mb-4">
+                    <label htmlFor="phoneNumber" className="form-label text-warning">Phone Number</label>
+                    <input
+                      type="tel"
+                      className="form-control"
+                      id="phoneNumber"
+                      name="phoneNumber"
+                      value={formData.phoneNumber}
+                      onChange={handleChange}
+                      placeholder="+1 (555) 555-5555"
                       required
                     />
                   </div>
